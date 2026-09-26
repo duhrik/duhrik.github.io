@@ -1,0 +1,75 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.5;
+  color: #1e293b;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.box {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  margin: 24px 0;
+  background: #f8fafc;
+}
+
+input[type="file"] {
+  margin: 12px 0;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+#status {
+  margin-top: 16px;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#download {
+  margin-top: 18px;
+}
+
+.download-link {
+  display: inline-block;
+  background: #16a34a;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.download-link:hover {
+  background: #15803d;
+}
