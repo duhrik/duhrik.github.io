@@ -6,28 +6,18 @@
         <title>convrt</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-
     <body>
         <h1>convrt</h1>
-
-        <p>
-            Convert <span title="png, jpeg, gif, webp, pdf">some</span> formats to jpeg.
-        </p>
-
+        <p>Convert <span title="png, jpeg, gif, webp, pdf">some</span> formats to jpeg.</p>
         <div class="box">
             <input type="file" id="fileInput" accept="image/png,image/jpeg,image/gif,image/webp,image/bmp,image/tiff,application/pdf" />
-
             <br />
-
             <button id="convertBtn" disabled>Convert to JPEG</button>
-
             <p id="status">No file selected.</p>
-
             <div id="download" class="hidden">
                 <a id="downloadLink" class="download-link" download="converted.jpg"> Download JPEG </a>
             </div>
         </div>
-
         <script type="module" src="app.js"></script>
     </body>
 </html>
